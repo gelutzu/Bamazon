@@ -15,7 +15,7 @@ We populated this database with 10 different products. Then we created a Node ap
 
 These are the steps necessary to run the app and pictures to demonstrate the running app.
 
-* The original populated database showing products table: ![Original table](https://github.com/gelutzu/Bamazon/blob/master/initialDB.JPG)
+* The original populated database showing products table:![Original table](https://github.com/gelutzu/Bamazon/blob/master/initialDB.JPG)
 * The execution of the app:![Execution](https://github.com/gelutzu/Bamazon/blob/master/execution.JPG)
 * The update in the database: ![Update](https://github.com/gelutzu/Bamazon/blob/master/stockUpdate.JPG)
-* The insufficient warning message:![Insufficient] (https://github.com/gelutzu/Bamazon/blob/master/insufficient.JPG)
+* The insufficient warning message:![Insufficient](https://github.com/gelutzu/Bamazon/blob/master/insufficient.JPG)
