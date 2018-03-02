@@ -2,7 +2,8 @@
 
 Bamazon is an Amazon-like storefront built with MySQL and Node js. The app will take in orders from customers and deplete stock from the store's inventory.
 
-Challenge #1: Customer View (Minimum Requirement)
+Challenge #1: Customer View 
+
 We started with creating a MySQL Database called bamazon_DB that contains a table called products. The table has the following colomns:
 
 * id (unique id for each product)
@@ -19,3 +20,19 @@ These are the steps necessary to run the app and pictures to demonstrate the run
 * The execution of the app:![Execution](https://github.com/gelutzu/Bamazon/blob/master/execution.JPG)
 * The update in the database: ![Update](https://github.com/gelutzu/Bamazon/blob/master/stockUpdate.JPG)
 * The insufficient warning message:![Insufficient](https://github.com/gelutzu/Bamazon/blob/master/insufficient.JPG)
+
+Challenge #2: Manager View
+
+We created a new Node application called bamazonManager.js. Running this application will list a set of menu options:
+* View Products for Sale
+* View Low Inventory
+* Add to Inventory
+* Add New Product
+If a manager selects View Products for Sale, the app should list every available item: the item IDs, names, prices, and quantities. If a manager selects View Low Inventory, then it should list all items with an inventory count lower than five. If a manager selects Add to Inventory, your app should display a prompt that will let the manager "add more" of any item currently in the store. If a manager selects Add New Product, it should allow the manager to add a completely new product to the store.
+
+Here is a collection of pictures demonstrating each available option fro the menu:
+* View products: ![Original table](https://github.com/gelutzu/Bamazon/blob/master/managerView.PNG)
+* View low inventory:![Low Inventory](https://github.com/gelutzu/Bamazon/blob/master/managerLowInv.PNG)
+* Add to inventory: ![Add to inventory](https://github.com/gelutzu/Bamazon/blob/master/managerAdd.PNG)
+* Add new product:![Add new product1](https://github.com/gelutzu/Bamazon/blob/master/managerNew.PNG) 
+![Add new product2](https://github.com/gelutzu/Bamazon/blob/master/managerNew2.PNG) 
